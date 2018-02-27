@@ -259,7 +259,7 @@ UPDATE quiz_quizattempt SET quiz_id=238  WHERE quiz_id=218;
 
 
 DELETE FROM `summary_settingproperties` WHERE `key` = 'last_tracker_pk';
-
+DELETE FROM `settings_settingproperties` WHERE `key` = 'last_tracker_pk';
 
 
 
