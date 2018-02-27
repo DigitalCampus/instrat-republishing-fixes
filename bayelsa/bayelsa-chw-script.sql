@@ -257,6 +257,6 @@ UPDATE quiz_quizattempt SET quiz_id=99  WHERE quiz_id=90;
 -- Activity "Neonatal Resuscitation Quiz"(80d5b1e50cbe297d280d03ec2d814b7f32cr0s2a1p50a0m0) is no longer in the course.
 UPDATE quiz_quizattempt SET quiz_id=98  WHERE quiz_id=89;
 
-DELETE FROM `summary_settingproperties` WHERE `key` = 'last_tracker_pk';
+
 DELETE FROM `settings_settingproperties` WHERE `key` = 'last_tracker_pk';
 
