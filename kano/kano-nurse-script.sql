@@ -287,4 +287,7 @@ UPDATE quiz_quizattempt SET quiz_id=270 WHERE quiz_id=221;
 -- Activity "Quiz - How to care for a newborn full length version"(1a67557f0297831d07ab5f6f422311e01709cr0s2a1p5a0m0) is no longer in the course.
 UPDATE quiz_quizattempt SET quiz_id=271 WHERE quiz_id=222;
 
-DELETE FROM `settings_settingproperties` WHERE `settings_settingproperties`.`key` = 'last_tracker_pk';
+
+DELETE FROM `summary_settingproperties` WHERE `key` = 'last_tracker_pk';
+
+
